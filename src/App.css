@@ -1,0 +1,41 @@
+body{
+ width: 100%;
+}
+body.light{
+  background-color: white;
+  /* background-color: rgb(227, 14, 14); */
+
+}
+body.dark{
+  background-color: rgb(6, 6, 6);
+}
+.dark .list{
+  background-color: rgb(27, 27, 27);
+  color: rgb(254, 252, 252);
+}
+
+.dark .input{
+  background-color: white;
+  color: black;
+}
+.dark.para{
+  color: white;
+  /* color: rgb(229, 4, 4); */
+}
+.dark .head{
+  background-color: rgb(0, 0, 0);
+}
+.dark .heading{
+  background-color: rgb(0, 0, 0);
+}
+
+.dark .add-todo{
+  background-color: rgb(0, 0, 0);
+}
+
+.light .add-todo{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
